@@ -1,0 +1,72 @@
+.header {
+  margin-top: 175px;
+  margin-bottom: 20px;
+  font-family: Lato;
+  font-size: 30px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #19233b;
+}
+
+.bgimg {
+  background: url('https://images.unsplash.com/photo-1516218617877-36436ea758c0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0299f2cea83641e24b132027340b2af3&auto=format&fit=crop&w=1050&q=80') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.subtitle {
+  font-family: Lato;
+  margin-bottom: 30px;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #9198ac;
+}
+
+form {
+  .input-group-text {
+    background-color: transparent;
+    border-right-color: white;
+  }
+
+  label {
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #9198ac;
+  }
+  input {
+    height: 60px;
+  }
+  .forgot {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #9198ac;
+  }
+  button {
+    width: 80px;
+    height: 80px;
+    border-radius: 4px;
+    box-shadow: 0 20px 30px -5px rgba(1, 119, 255, 0.23);
+    background-color: #0177ff;
+    border: none;
+  }
+
+}

@@ -1,0 +1,193 @@
+.back {
+  background-color: #f7f9fc;
+  height: 100%;
+  .header {
+    background: white;
+    height: 70px;
+    width: 100%;
+    .drop {
+      button{
+        background: transparent;
+        border: none;
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #19233b;
+      }
+    }
+    .logo {
+      p {
+        font-family: 'Bungee Inline', cursive;
+        font-size: 19px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        text-transform: uppercase;
+        padding-left: 25px;
+        padding-top: 10px;
+        letter-spacing: normal;
+        color: #19233b;
+      }
+    }
+
+    .link {
+      margin-top: 20px;
+      font-family: Lato;
+      font-size: 14px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #9198ac;
+      .col{
+        padding: 0;
+      }
+      p{
+        text-align: center;
+      }
+      span{
+        img{
+          padding-right: 10px;
+          margin-top: -5px;
+        }
+      }
+      .active {
+        color: #19233b;
+        border-bottom: 2px solid #19233b;
+        padding-bottom: 30px;
+      }
+    }
+    .profile{
+      img{
+        width: 36px;
+        height: 36px;
+      }
+    }
+  }
+
+  .body {
+    margin-top: 55px;
+    .drop {
+      .dropdown {
+        button {
+          background: transparent;
+          border: none;
+          font-family: Lato;
+          font-size: 14px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          color: #19233b;
+
+          span {
+            color: #babecc;
+          }
+        }
+      }
+    }
+    .create {
+      width: 187px;
+      height: 40px;
+      border-radius: 4px;
+      background-color: #0177ff;
+      border: none;
+      font-size: 14px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #ffffff;
+    }
+    .search_input {
+      margin-right: 30px;
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid #e4e8ef;
+      width: 300px;
+    }
+    .search_input:focus, .search_input:active {
+      outline: none;
+      border-bottom: 1px solid #0177ff;
+    }
+    .project_head {
+      font-family: Lato;
+      font-size: 24px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #19233b;
+      span {
+        font-size: 20px;
+        color: #babecc;
+      }
+    }
+    table {
+      border-collapse:separate;
+      border-spacing: 0 1em;
+    }
+    thead {
+      tr {
+        th {
+          font-family: Lato;
+          font-size: 10px;
+          font-weight: bold;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          color: #9198ac;
+          border: none;
+        }
+      }
+    }
+    tbody {
+      tr {
+        height: 60px;
+        border-radius: 4px;
+        background-color: #ffffff;
+        margin-top: 10px;
+        td {
+          padding-top: 20px;
+          font-family: Lato;
+          font-size: 14px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          color: #9198ac;
+          button{
+            background: transparent;
+            border: none;
+            margin-top: -10px;
+          }
+          button:active, button:focus {
+            outline: none;
+          }
+        }
+        td.name {
+          font-family: Lato;
+          font-size: 14px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          color: #19233b;
+        }
+      }
+
+    }
+  }
+}

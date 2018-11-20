@@ -1,0 +1,119 @@
+<div class="back">
+  <div class="row">
+    <div class="header">
+      <div class="row">
+        <div class="col">
+          <div class="logo">
+            <p>ReTax</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="link">
+            <div class="row">
+              <div class="col">
+                <p><span><img src="../../../assets/image/g-dashboard-inactive.svg" alt=""></span>Dashboard</p>
+              </div>
+              <div class="col">
+                <p class="active"><span><img src="../../../assets/image/g-project-active.svg" alt=""></span>Projects</p>
+              </div>
+              <div class="col">
+                <p><span><img src="../../../assets/image/shape.svg"></span>Customers</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="row  justify-content-end">
+            <div class="profile">
+              <div class="photo">
+                <img src="../../../assets/image/shape%20(1).svg" alt="">
+              </div>
+              <div class="drop">
+                <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Nazar Nazar
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="container">
+      <div class="body">
+        <div class="row">
+          <div class="col">
+            <div class="row">
+              <p class="project_head">Project <span class="number_project">({{allProject.length}})</span></p>
+              <div class="drop">
+                <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Show<span>Active</span>
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col ">
+            <div class="row justify-content-end">
+              <input type="text" class="search_input" #val (change)="Search(val.value)">
+              <button class="create">Create Project</button>
+            </div>
+
+          </div>
+        </div>
+        <div class="row">
+          <table class="table">
+            <thead>
+            <tr>
+              <th scope="col">Project Name</th>
+              <th scope="col">Address</th>
+              <th scope="col">units</th>
+              <th scope="col">status</th>
+              <th scope="col"></th>
+            </tr>
+            </thead>
+            <tbody>
+
+            <tr *ngFor="let item of allProject">
+              <td class="name">{{item.project_name}}</td>
+              <td>{{item.project_address}}</td>
+              <td>{{item.project_unit_count}}</td>
+              <td>status</td>
+              <td>
+                <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButtonIcon"
+                          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="https://cdn3.iconfinder.com/data/icons/pyconic-icons-3-1/512/points-512.png" width="20px" alt="">
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonIcon">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </div>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
